@@ -149,6 +149,18 @@ mosquitto_sub -h localhost -t "smarthome/#" -v
 
 ---
 
+## Troubleshooting Notes
+
+- **DHT22 on Linux SBCs**: Adafruit_DHT and direct GPIO bit-banging fail on IOT2050 
+  (non-RT kernel can't guarantee the microsecond timing DHT22 needs). Arduino serial 
+  bridge was the only reliable fix.
+- **MJPEG vs HLS**: `motion`'s MJPEG stream works on desktop browsers but fails on iOS 
+  Safari ("response could not be parsed"). Switched to ffmpeg HLS for cross-device support.
+- **Network on eno2**: DHCP client occasionally fails to bind after reboot; static IP + 
+  manual gateway/DNS in `/etc/network/interfaces` is more reliable.
+- **Distance sensor noise**: Raw HC-SR04 readings fluctuate ±50cm due to reflections. 
+  Averaging 5 readings with outlier filtering (0-200cm range) stabilized output significantly.
+
 ## Authors
 
 - Adrian-Ștefan Zemora
