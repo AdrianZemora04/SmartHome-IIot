@@ -7,7 +7,7 @@ An intelligent home automation system that automatically controls the door and w
 ## Demo & Screenshots
 
 ### Hardware Setup
-![Hardware Setup](docs/Hardware-Setup.jpg)
+![Hardware Setup](docs/Hardware-Setup.png)
 
 ### Ignition Perspective SCADA Dashboard
 ![SCADA Dashboard](docs/Scada-Dashboard.png)
