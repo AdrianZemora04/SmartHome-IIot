@@ -8,7 +8,7 @@ An intelligent home automation system that automatically controls the door and w
 
 ## Demo
 
-[![Watch the demo](docs/Scada-Dashboard.png)](https://youtu.be/Di6Y5YMmRn8)
+[▶ Watch the full demo on YouTube](https://youtu.be/Di6Y5YMmRn8)
 
 ---
 
