@@ -4,7 +4,15 @@ An intelligent home automation system that automatically controls the door and w
 
 > Academic project — Politehnica University of Timișoara, Faculty of Automation and Computer Science
 
-## Demo & Screenshots
+---
+
+## Demo
+
+[![Watch the demo](docs/Scada-Dashboard.png)](https://youtu.be/Di6Y5YMmRn8)
+
+---
+
+## Screenshots
 
 ### Hardware Setup
 ![Hardware Setup](docs/Hardware-Setup.png)
